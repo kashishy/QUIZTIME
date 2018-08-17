@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4A61AC"
+    tools:context=".ques2">
+
+    <TextView
+        android:id="@+id/question2"
+        android:layout_width="320dp"
+        android:layout_height="127dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="75dp"
+        android:text="@string/who_won_the_football_worldcup_2018"
+        android:textAlignment="center"
+        android:textColor="#DCDDE1"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="72dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="228dp"
+        android:background="@drawable/ipath1"
+        android:gravity="center"
+        android:text="@string/brazil"
+        android:textAlignment="center"
+        android:textColor="#DCDDE1"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/button3"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/ipath1"
+        android:text="@string/croatia"
+        android:textColor="#DCDDE1"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/button4"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/ipath1"
+        android:layout_marginBottom="80dp"
+        android:text="@string/argentina"
+        android:textColor="#DCDDE1"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="-229dp"
+        android:background="@drawable/ipath1"
+        android:text="@string/france"
+        android:textColor="#DCDDE1"
+        android:textSize="22sp" />
+
+</RelativeLayout>

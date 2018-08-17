@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4A61AC">
+
+    <ImageView
+        android:id="@+id/lbrain"
+        android:layout_width="136dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:contentDescription="@string/todo"
+        app:srcCompat="@drawable/iimage1" />
+
+    <EditText
+        android:id="@+id/lusername"
+        android:layout_width="330dp"
+        android:layout_height="48dp"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="250dp"
+        android:background="@drawable/iiectangle5"
+        android:drawableLeft="@drawable/account"
+        android:ems="10"
+        android:hint="@string/user_name"
+        android:inputType="text"
+        android:textColorLink="@android:color/black" />
+
+    <Button
+        android:id="@+id/llogin"
+        android:layout_width="145dp"
+        android:layout_height="55dp"
+        android:layout_above="@+id/textView4"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button1"
+        android:text="@string/login"
+        android:textColor="#DCDDE1" />
+
+    <Button
+        android:id="@+id/lsignup"
+        android:layout_width="145dp"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="45dp"
+        android:background="@drawable/button1"
+        android:text="@string/sign_up"
+        android:textColor="#DCDDE1" />
+
+    <EditText
+        android:id="@+id/lpassword"
+        android:layout_width="330dp"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="210dp"
+        android:background="@drawable/iiectangle5"
+        android:drawableStart="@drawable/lock6"
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:paddingStart="5dp"
+        android:textColorLink="@android:color/black" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+        android:layout_above="@+id/lsignup"
+        android:layout_centerHorizontal="true"
+        android:text="@string/or"
+        android:textColor="#DCDDE1"
+        android:textSize="15dp" />
+
+</RelativeLayout>
